@@ -501,7 +501,19 @@ footer {
         flex-direction: row;
         margin-right: -21px;
     }
-}
+
+    .fiche-populaires {
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    padding: 5px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px #F2F2F2;
+    margin: 8px 8px 30px 0px;
+    transition: 0.3s;
+
+    }
    
 #bloc-populaires{ display: flex;
     width: 100%;
@@ -510,8 +522,21 @@ footer {
 }
 
 .image-populaires {
-    max-width: 100%;
+    display: flex;
+    width: 38%;
+    min-height: 140px;
     height: auto;
+    overflow: hidden;
+}
+
+.texte-populaires{
+    font-size: 15px;
+    margin: 24px 9px 3px 6px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
 }
 
 
